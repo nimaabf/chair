@@ -65,7 +65,6 @@ h2 {
 .chair img{
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-
 }
 
 
@@ -227,4 +226,32 @@ a:link{
 }
 a:hover{
   color: grey;
+}
+
+/* Contact-Us Page */
+.contact-us{
+  display:grid ;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 35px;
+  align-items: center;
+  margin-bottom: 0;
+}
+.data{
+  /* align-items: center; */
+  padding: 100px;
+  font-weight: 400px;
+  font-size: 30px;
+  
+
+}
+.img-contact{
+  border-radius: 0;
+  grid-column: 2/-1;
+  background-size: cover;
+}
+.contact-us img{
+}
+.data a{
+font-size: 16px;
+padding: 10px 25px;
 }
